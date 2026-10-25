@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ontdek APV: een studentenvereniging met activiteiten, ontmoetingen en nieuwe ideeën.">
+  <title>APV | Studentenvereniging</title>
+  <style>
+    :root{--navy:#142947;--blue:#254b75;--cream:#f7f5ef;--white:#fff;--gold:#e8b65c;--text:#253447}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--text);background:var(--cream);line-height:1.65}
+    a{color:inherit}header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #0002}
+    .nav{max-width:1100px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .logo{font-size:1.55rem;font-weight:850;letter-spacing:.12em;text-decoration:none}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{text-decoration:none;font-size:.95rem}nav a:hover,nav a:focus-visible{color:var(--gold)}
+    .hero{background:linear-gradient(130deg,#142947,#315d87);color:white;padding:110px 22px;text-align:center}.hero .inner{max-width:790px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font-weight:700;color:var(--gold);font-size:.8rem}h1{font-size:clamp(2.4rem,6vw,4.5rem);line-height:1.1;margin:20px 0}h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.2;color:var(--navy)}.hero p{font-size:1.16rem;max-width:650px;margin:0 auto 28px}
+    .button{display:inline-block;background:var(--gold);color:#17263b;text-decoration:none;font-weight:750;border-radius:7px;padding:12px 22px}.button:hover,.button:focus-visible{background:#f7ca79}.button.secondary{background:transparent;color:white;border:1px solid #ffffff9c;margin-left:8px}.button.secondary:hover{background:#ffffff1a}
+    section{padding:72px 22px;scroll-margin-top:90px}.container{max-width:1100px;margin:auto}.lead{max-width:730px;font-size:1.1rem}.white{background:white}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:28px}.card{background:white;border-radius:12px;padding:25px;box-shadow:0 7px 25px #1429470c;border:1px solid #14294712}.white .card{background:var(--cream)}.card h3{color:var(--navy);margin-top:0}.tag{color:var(--blue);font-size:.85rem;font-weight:750;text-transform:uppercase;letter-spacing:.06em}.notice{border-left:4px solid var(--gold);padding:12px 18px;background:#fff9eb;margin-top:20px}footer{background:var(--navy);color:white;text-align:center;padding:28px 18px}footer a{color:white} .contact-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+    @media(max-width:700px){.nav{justify-content:center}nav{justify-content:center;gap:12px}.hero{padding:80px 18px}.cards{grid-template-columns:1fr}.button.secondary{margin:12px 0 0}section{padding:52px 18px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="#home" aria-label="APV - naar begin">APV</a>
+      <nav aria-label="Hoofdnavigatie">
+        <a href="#over">Over APV</a><a href="#bestuur">Bestuur</a><a href="#activiteiten">Activiteiten</a><a href="#lid">Lid worden</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero" id="home">
+      <div class="inner"><div class="eyebrow">Welkom bij APV</div><h1>Samen maken we meer mogelijk.</h1><p>Een plek voor ontmoeting, nieuwe ideeën en activiteiten. Ontdek APV en wat onze vereniging te bieden heeft.</p><a class="button" href="#over">Ontdek APV</a><a class="button secondary" href="#activiteiten">Bekijk activiteiten</a></div>
+    </div>
+    <section id="over"><div class="container"><span class="tag">Onze vereniging</span><h2>Over APV</h2><p class="lead">Welkom bij APV! Op deze website vind je informatie over onze vereniging, het bestuur en aankomende activiteiten.</p><p>Hier komt straks het echte verhaal van APV: onze achtergrond, missie en wat ons als vereniging bijzonder maakt.</p></div></section>
+    <section class="white" id="bestuur"><div class="container"><span class="tag">De mensen achter APV</span><h2>Het bestuur</h2><div class="cards"><article class="card"><h3>Voorzitter</h3><p>Naam en foto volgen.</p></article><article class="card"><h3>Secretaris</h3><p>Naam en foto volgen.</p></article><article class="card"><h3>Penningmeester</h3><p>Naam en foto volgen.</p></article></div><p class="notice">Voorbeeldfuncties: vervang deze door de daadwerkelijke bestuurssamenstelling van APV.</p></div></section>
+    <section id="activiteiten"><div class="container"><span class="tag">Ontmoet elkaar</span><h2>Activiteiten</h2><p class="lead">Hier verschijnen binnenkort de activiteiten van APV.</p><div class="cards"><article class="card"><span class="tag">Binnenkort</span><h3>Activiteit 1</h3><p>Beschrijving en datum volgen.</p></article><article class="card"><span class="tag">Binnenkort</span><h3>Activiteit 2</h3><p>Beschrijving en datum volgen.</p></article><article class="card"><span class="tag">Binnenkort</span><h3>Activiteit 3</h3><p>Beschrijving en datum volgen.</p></article></div></div></section>
+    <section class="white" id="lid"><div class="container"><span class="tag">Doe mee</span><h2>Lid worden</h2><p class="lead">Lijkt het je leuk om betrokken te raken bij APV? Binnenkort vind je hier meer informatie over het lidmaatschap en aanmelden.</p><a class="button" href="#contact">Neem contact op</a></div></section>
+    <section id="contact"><div class="container"><span class="tag">We horen graag van je</span><h2>Contact</h2><p>Heb je een vraag over APV of wil je meer weten? Houd deze pagina in de gaten voor onze officiële contactgegevens en socialmediakanalen.</p><p class="notice">Voeg hier later het officiële e-mailadres en de Instagram-link van APV toe. Er worden op deze voorbeeldsite nog geen persoonsgegevens verzameld.</p></div></section>
+  </main>
+  <footer><p>© <span id="jaar"></span> APV · Met zorg gemaakt voor de vereniging.</p></footer>
+  <script>document.getElementById('jaar').textContent = new Date().getFullYear();</script>
+</body>
+</html>
